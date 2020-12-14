@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF74FC36258772A800BFEDBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74FC35258772A800BFEDBC /* AppDelegate.swift */; };
+		FF74FC38258772A800BFEDBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74FC37258772A800BFEDBC /* SceneDelegate.swift */; };
+		FF74FC3A258772A800BFEDBC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74FC39258772A800BFEDBC /* MainVC.swift */; };
+		FF74FC3F258772AC00BFEDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF74FC3E258772AC00BFEDBC /* Assets.xcassets */; };
+		FF74FC42258772AC00BFEDBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF74FC40258772AC00BFEDBC /* LaunchScreen.storyboard */; };
+		FF74FC4D258772AD00BFEDBC /* nextAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74FC4C258772AD00BFEDBC /* nextAuthTests.swift */; };
+		FF74FC58258772AD00BFEDBC /* nextAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74FC57258772AD00BFEDBC /* nextAuthUITests.swift */; };
+		FF74FC692587732800BFEDBC /* JSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74FC682587732800BFEDBC /* JSONData.swift */; };
+		FF74FC7C2587AE3400BFEDBC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74FC7B2587AE3400BFEDBC /* Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF74FC49258772AC00BFEDBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF74FC2A258772A800BFEDBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF74FC31258772A800BFEDBC;
+			remoteInfo = nextAuth;
+		};
+		FF74FC54258772AD00BFEDBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF74FC2A258772A800BFEDBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF74FC31258772A800BFEDBC;
+			remoteInfo = nextAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF74FC32258772A800BFEDBC /* nextAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nextAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF74FC35258772A800BFEDBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF74FC37258772A800BFEDBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF74FC39258772A800BFEDBC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		FF74FC3E258772AC00BFEDBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF74FC41258772AC00BFEDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF74FC43258772AC00BFEDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF74FC48258772AC00BFEDBC /* nextAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nextAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF74FC4C258772AD00BFEDBC /* nextAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextAuthTests.swift; sourceTree = "<group>"; };
+		FF74FC4E258772AD00BFEDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF74FC53258772AD00BFEDBC /* nextAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nextAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF74FC57258772AD00BFEDBC /* nextAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextAuthUITests.swift; sourceTree = "<group>"; };
+		FF74FC59258772AD00BFEDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF74FC682587732800BFEDBC /* JSONData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONData.swift; sourceTree = "<group>"; };
+		FF74FC7B2587AE3400BFEDBC /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF74FC2F258772A800BFEDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF74FC45258772AC00BFEDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF74FC50258772AD00BFEDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF74FC29258772A800BFEDBC = {
+			isa = PBXGroup;
+			children = (
+				FF74FC34258772A800BFEDBC /* nextAuth */,
+				FF74FC4B258772AD00BFEDBC /* nextAuthTests */,
+				FF74FC56258772AD00BFEDBC /* nextAuthUITests */,
+				FF74FC33258772A800BFEDBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF74FC33258772A800BFEDBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF74FC32258772A800BFEDBC /* nextAuth.app */,
+				FF74FC48258772AC00BFEDBC /* nextAuthTests.xctest */,
+				FF74FC53258772AD00BFEDBC /* nextAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF74FC34258772A800BFEDBC /* nextAuth */ = {
+			isa = PBXGroup;
+			children = (
+				FF74FC35258772A800BFEDBC /* AppDelegate.swift */,
+				FF74FC37258772A800BFEDBC /* SceneDelegate.swift */,
+				FF74FC39258772A800BFEDBC /* MainVC.swift */,
+				FF74FC3E258772AC00BFEDBC /* Assets.xcassets */,
+				FF74FC40258772AC00BFEDBC /* LaunchScreen.storyboard */,
+				FF74FC43258772AC00BFEDBC /* Info.plist */,
+				FF74FC682587732800BFEDBC /* JSONData.swift */,
+				FF74FC7B2587AE3400BFEDBC /* Response.swift */,
+			);
+			path = nextAuth;
+			sourceTree = "<group>";
+		};
+		FF74FC4B258772AD00BFEDBC /* nextAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF74FC4C258772AD00BFEDBC /* nextAuthTests.swift */,
+				FF74FC4E258772AD00BFEDBC /* Info.plist */,
+			);
+			path = nextAuthTests;
+			sourceTree = "<group>";
+		};
+		FF74FC56258772AD00BFEDBC /* nextAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF74FC57258772AD00BFEDBC /* nextAuthUITests.swift */,
+				FF74FC59258772AD00BFEDBC /* Info.plist */,
+			);
+			path = nextAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF74FC31258772A800BFEDBC /* nextAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF74FC5C258772AD00BFEDBC /* Build configuration list for PBXNativeTarget "nextAuth" */;
+			buildPhases = (
+				FF74FC2E258772A800BFEDBC /* Sources */,
+				FF74FC2F258772A800BFEDBC /* Frameworks */,
+				FF74FC30258772A800BFEDBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nextAuth;
+			productName = nextAuth;
+			productReference = FF74FC32258772A800BFEDBC /* nextAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF74FC47258772AC00BFEDBC /* nextAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF74FC5F258772AD00BFEDBC /* Build configuration list for PBXNativeTarget "nextAuthTests" */;
+			buildPhases = (
+				FF74FC44258772AC00BFEDBC /* Sources */,
+				FF74FC45258772AC00BFEDBC /* Frameworks */,
+				FF74FC46258772AC00BFEDBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF74FC4A258772AC00BFEDBC /* PBXTargetDependency */,
+			);
+			name = nextAuthTests;
+			productName = nextAuthTests;
+			productReference = FF74FC48258772AC00BFEDBC /* nextAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF74FC52258772AD00BFEDBC /* nextAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF74FC62258772AD00BFEDBC /* Build configuration list for PBXNativeTarget "nextAuthUITests" */;
+			buildPhases = (
+				FF74FC4F258772AD00BFEDBC /* Sources */,
+				FF74FC50258772AD00BFEDBC /* Frameworks */,
+				FF74FC51258772AD00BFEDBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF74FC55258772AD00BFEDBC /* PBXTargetDependency */,
+			);
+			name = nextAuthUITests;
+			productName = nextAuthUITests;
+			productReference = FF74FC53258772AD00BFEDBC /* nextAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF74FC2A258772A800BFEDBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FF74FC31258772A800BFEDBC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FF74FC47258772AC00BFEDBC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FF74FC31258772A800BFEDBC;
+					};
+					FF74FC52258772AD00BFEDBC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FF74FC31258772A800BFEDBC;
+					};
+				};
+			};
+			buildConfigurationList = FF74FC2D258772A800BFEDBC /* Build configuration list for PBXProject "nextAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF74FC29258772A800BFEDBC;
+			productRefGroup = FF74FC33258772A800BFEDBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF74FC31258772A800BFEDBC /* nextAuth */,
+				FF74FC47258772AC00BFEDBC /* nextAuthTests */,
+				FF74FC52258772AD00BFEDBC /* nextAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF74FC30258772A800BFEDBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF74FC42258772AC00BFEDBC /* LaunchScreen.storyboard in Resources */,
+				FF74FC3F258772AC00BFEDBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF74FC46258772AC00BFEDBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF74FC51258772AD00BFEDBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF74FC2E258772A800BFEDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF74FC3A258772A800BFEDBC /* MainVC.swift in Sources */,
+				FF74FC692587732800BFEDBC /* JSONData.swift in Sources */,
+				FF74FC36258772A800BFEDBC /* AppDelegate.swift in Sources */,
+				FF74FC38258772A800BFEDBC /* SceneDelegate.swift in Sources */,
+				FF74FC7C2587AE3400BFEDBC /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF74FC44258772AC00BFEDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF74FC4D258772AD00BFEDBC /* nextAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF74FC4F258772AD00BFEDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF74FC58258772AD00BFEDBC /* nextAuthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF74FC4A258772AC00BFEDBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF74FC31258772A800BFEDBC /* nextAuth */;
+			targetProxy = FF74FC49258772AC00BFEDBC /* PBXContainerItemProxy */;
+		};
+		FF74FC55258772AD00BFEDBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF74FC31258772A800BFEDBC /* nextAuth */;
+			targetProxy = FF74FC54258772AD00BFEDBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF74FC40258772AC00BFEDBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF74FC41258772AC00BFEDBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF74FC5A258772AD00BFEDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF74FC5B258772AD00BFEDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF74FC5D258772AD00BFEDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = nextAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.nextAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF74FC5E258772AD00BFEDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = nextAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.nextAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF74FC60258772AD00BFEDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = nextAuthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.nextAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nextAuth.app/nextAuth";
+			};
+			name = Debug;
+		};
+		FF74FC61258772AD00BFEDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = nextAuthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.nextAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nextAuth.app/nextAuth";
+			};
+			name = Release;
+		};
+		FF74FC63258772AD00BFEDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = nextAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.nextAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nextAuth;
+			};
+			name = Debug;
+		};
+		FF74FC64258772AD00BFEDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = nextAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.nextAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nextAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF74FC2D258772A800BFEDBC /* Build configuration list for PBXProject "nextAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF74FC5A258772AD00BFEDBC /* Debug */,
+				FF74FC5B258772AD00BFEDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF74FC5C258772AD00BFEDBC /* Build configuration list for PBXNativeTarget "nextAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF74FC5D258772AD00BFEDBC /* Debug */,
+				FF74FC5E258772AD00BFEDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF74FC5F258772AD00BFEDBC /* Build configuration list for PBXNativeTarget "nextAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF74FC60258772AD00BFEDBC /* Debug */,
+				FF74FC61258772AD00BFEDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF74FC62258772AD00BFEDBC /* Build configuration list for PBXNativeTarget "nextAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF74FC63258772AD00BFEDBC /* Debug */,
+				FF74FC64258772AD00BFEDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF74FC2A258772A800BFEDBC /* Project object */;
+}
